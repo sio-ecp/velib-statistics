@@ -1,9 +1,9 @@
 language: python
 python:
-  - "2.7"
-
-# command to install dependencies
+- '2.7'
 install:
-  - pip install -r requirements.txt
-
+- pip install -r requirements.txt
 script: nosetests
+notifications:
+  slack:
+    secure: YbCV/8FlC3QoMDw05TfSExDzmlBhG8WUTjNREQy5LOy3CfmekBLRVov/LbUGW1kCFLmmnVmwcv1r4s3lZFaDU8lCM2cut2AV9JJQfScPZTlByy4VAYEFIGJ06sNDBVIV53HLWosXO5fAh+43R1/CXRZhyXjPkUuA3plc4S1GEaEp741dRuSKvQOqk2GrJmorf6mq/PmP8UcY0RfebOzSllVJfkiDsIOrLnKMPCgi2979NVwakAtC7oc3ncw/HFeR5rAG16Az8IeS5CtAXpmuSjmH9YvuNTCsmBN3TI1JVb+1p+ILbeUyX0AFckJaA3IBzl2Muq5GdTM8IRAMncXXpGYRt7zNkyDz8eKmu5lTbPmK8H6RnxhnxHPwvleQw5CK0IXJicPWrlztesrahV1G44nm0flyf6sikZMV4l46Akr6vNnCBayrNvZjtgcM5LU4aU1t1ilfmttY5V5/aH8/CNcijM0MwKyKV+LvNJOfzkD8rSLRqYQiwx6R/Yi1KwYGDn92qFHiflXmkU8DkGuwAimDT8hRBiEG6jkSZiJiyjGTX9Z1fGJgoN382p5NnunYQinNwDRCbr4kH5LK7myRo4LU6SnWcE3eFrySgL1X8uD/ZSKJRqD3/2XDMEgBRDprQFnXJYGW6adr7uQSFh3ctiTeqR9sRG3TJG1zb8RDZrA=
